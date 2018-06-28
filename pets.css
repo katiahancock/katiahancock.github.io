@@ -1,0 +1,125 @@
+/* Colour palette: https://coolors.co/393839-fbfcff-605856-1a6480-274156 */
+
+body {
+    margin: 0px;
+    font-family: 'Maven Pro';
+}
+
+img {
+    width: 100%;
+}
+
+#topNav {
+    height: 2em;
+    width: auto;
+    background-color: #E1DEE1;
+    display: flex;
+    justify-content: flex-end;
+    align-content: top;
+}
+
+.topNavButtons {
+    height: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.topNavButtons a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1A6480;
+}
+
+#mainHeader {
+    height: auto;
+    width: auto;
+    font-size: 50px;
+    color: #393839;
+    padding: 0 1em 0 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#mainHeader img {
+    width: 60px;
+    height: 60px;
+}
+
+#mainHeaderSearch {
+    display: flex;
+}
+
+#mainNav {
+    height: 3em;
+    background-color: #4588A0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mainNavButton {
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.mainNavButton a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 5px 0px;
+}
+
+.mainNavButton img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 5px 10px 15px;
+}
+
+#mainContent {
+    background: url(doggy!.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#bottomNav {
+    width: auto;
+    height: 8em;
+    background-color: #4588A0;
+    color: white;
+}
+
+#bottomNav img {
+    width: 15%;
+}
+
+#bottomNavLegal {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#cats:hover {
+    
+}
